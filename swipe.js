@@ -305,7 +305,13 @@
 
         // determine if scrolling test has run - one time test
         if ( typeof isScrolling == 'undefined') {
+
           isScrolling = !!( isScrolling || Math.abs(delta.x) < Math.abs(delta.y) );
+
+          // check here so swipeStart happens only once
+          if (!isScrolling) { 
+            options.swipeStart && options.swipeStart(index, slides[index]); 
+          }
         }
 
         // if user is not trying to scroll vertically
