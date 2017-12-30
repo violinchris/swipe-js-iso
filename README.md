@@ -1,3 +1,5 @@
+Use at your own risk, or better, go to [swipe-js-iso](https://github.com/voronianski/swipe-js-iso).  I needed some other events, so I forked.
+
 # Universal (a.k.a isomorphic) Swipe.js
 
 [![npm version](http://badge.fury.io/js/swipe-js-iso.svg)](http://badge.fury.io/js/swipe-js-iso)
