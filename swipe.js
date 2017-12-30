@@ -421,6 +421,8 @@
 
           }
 
+          options.attempt && options.attempt(index, slides[index]); 
+
         }
 
         // kill touchmove and touchend event listeners until touchstart called again
