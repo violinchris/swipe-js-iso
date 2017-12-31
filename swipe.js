@@ -427,7 +427,7 @@
 
           }
 
-          options.attempt && options.attempt(index, slides[index]); 
+          options.swipeEnd && options.swipeEnd(index, slides[index]); 
 
         }
 
